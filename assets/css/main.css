@@ -1513,6 +1513,10 @@ input, select, textarea {
 	section, article {
 		margin-bottom: 2.5em;
 	}
+    section p {
+		margin-left: 10px;
+        margin-right: 10px;
+	}
 
 	header {
 		margin: 0 0 1.5em 0;
