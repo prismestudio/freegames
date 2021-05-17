@@ -217,6 +217,11 @@ input, select, textarea {
             vertical-align: middle;
             }
 
+    .content{
+        text-align: center;
+        text-align: -moz-center;
+    }
+
 /* Gallery */
 
     .gallery-items {
