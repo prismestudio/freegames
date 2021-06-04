@@ -2246,7 +2246,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 0 3em 0;
+				padding: 1em 0 1em 0;
 			}
 
 		/* Banner */
@@ -2338,7 +2338,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 3.5em 0 3em 0;
+				display: none;
 			}
 
 		/* Nav */
@@ -2487,6 +2487,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #333;
+                background: #111;
 				background-image: url("images/bg02.png");
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
@@ -2799,6 +2800,10 @@ input, select, textarea {
 				padding: 40px 0 20px 0;
                 text-align: center;
 			}
+        
+        iframe{
+            max-width: 375px
+        }
 
 	}
 
@@ -2849,8 +2854,8 @@ input, select, textarea {
         
         /* Header */
         
-            #header h1 img {
-					max-height: 250px;
+            img {
+					max-height: 200px;
 				}
         
         /* iframe */
