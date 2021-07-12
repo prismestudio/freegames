@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+    height: 100%;
 }
 
 ol, ul {
@@ -1939,6 +1940,10 @@ input, select, textarea {
 
 
 /* Page Wrapper */
+
+    #body{
+        min-height: 100vh;
+    }
 
 	#page-wrapper > section {
 		margin-bottom: 0;
