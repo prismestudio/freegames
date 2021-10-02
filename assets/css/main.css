@@ -1657,6 +1657,7 @@ input, select, textarea {
 		outline: 0;
 		font-size: 1.1em;
 		padding: 0.65em 1.5em 0.65em 1.5em;
+        margin-bottom: 0.5em;
 		text-align: center;
 		-moz-transition: background-color .25s ease-in-out;
 		-webkit-transition: background-color .25s ease-in-out;
@@ -1960,6 +1961,11 @@ input, select, textarea {
         font-size: 4em;
         line-height: 1em;
     }
+
+    #intro h1 img{
+        max-height: 80vw;
+        max-width: 90vw;
+    }
 /* Header */
 
 	#header {
@@ -2149,9 +2155,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		position: relative;
+		position: absolute;
 		color: #fff;
 		padding: 4em 0;
+        bottom:0;
+        width:100%;
 	}
 
 		#footer:before {
